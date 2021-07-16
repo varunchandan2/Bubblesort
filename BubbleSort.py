@@ -23,7 +23,7 @@ def secondHighestNumber(list):
 # Swap helper method  
 def swap(i, j, list):
     list[i], list[j] = list[j], list[i]
-pass
+
 
 # Print the 2nd highest number
 print(secondHighestNumber(list))
