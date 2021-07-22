@@ -24,7 +24,8 @@ def palindromeCheck2(string):
 
 print(palindromeCheck2(string))
 
-
+ # This is the most effective iterative method using pointers 
+ # Time complexity is O(n) | Space comlexity is O(1)
 def isPalindrome(string):
     leftIdx = 0
     rightIdx = len(string) - 1
