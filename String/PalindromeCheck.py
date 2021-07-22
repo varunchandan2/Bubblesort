@@ -23,3 +23,17 @@ def palindromeCheck2(string):
     return string == "".join(reversedChars)
 
 print(palindromeCheck2(string))
+
+
+def isPalindrome(string):
+    leftIdx = 0
+    rightIdx = len(string) - 1
+    while leftIdx < rightIdx:
+        if string[leftIdx] != string[rightIdx]:
+            return False
+        leftIdx += 1
+        rightIdx -= 1
+    return True
+            
+
+print(isPalindrome(string))
